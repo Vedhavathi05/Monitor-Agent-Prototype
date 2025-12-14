@@ -1,0 +1,130 @@
+/* Page */
+.page {
+  background: #f4f6f8;
+  min-height: 100vh;
+  padding: 24px;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Header Card */
+.header-card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.header-card h1 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+/* Controls */
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.btn {
+  padding: 10px 16px;
+  border-radius: 6px;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn.start {
+  background: #8fd3a7;
+  color: #0f5132;
+}
+
+.btn.stop {
+  background: #c0392b;
+  color: #ffffff;
+}
+
+.status {
+  margin-left: 12px;
+  font-size: 14px;
+  color: #2e7d32;
+}
+
+/* Section Title */
+.section-title {
+  margin: 28px 0 14px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+/* Table */
+.table-container {
+  background: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background: #2f455c;
+  color: #ffffff;
+}
+
+th {
+  text-align: left;
+  padding: 14px;
+  font-size: 14px;
+}
+
+td {
+  padding: 14px;
+  font-size: 14px;
+  vertical-align: top;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+/* Columns */
+.col-time {
+  width: 18%;
+}
+
+.col-transcript {
+  width: 52%;
+}
+
+.col-summary {
+  width: 30%;
+}
+
+/* Cell Styling */
+.timestamp {
+  color: #333;
+  font-weight: 500;
+}
+
+.timestamp .window {
+  display: block;
+  margin-top: 4px;
+  font-size: 12px;
+  color: #666;
+}
+
+.transcript {
+  line-height: 1.6;
+  color: #333;
+}
+
+.summary {
+  color: #1f6fb2;
+  font-weight: 600;
+}
